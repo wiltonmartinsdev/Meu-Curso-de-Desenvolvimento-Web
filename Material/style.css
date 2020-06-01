@@ -1,0 +1,17 @@
+#paragrafos {
+    background-image: url(Imagens/brackground.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#subdiv {
+    background-color: red;
+}
+#titulo {
+    color: blue;
+}
+
+.texto_verde {
+    color: green;
+}
