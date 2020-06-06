@@ -15,3 +15,63 @@
 .texto_verde {
     color: green;
 }
+
+#cm{
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+}
+
+#mm{
+    background-color: red;
+    width: 1mm;
+    height: 1mm;
+}
+
+#in{
+    background-color: blue;
+    width: 1in;
+    height: 1in;
+}
+
+#px{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+}
+
+#pt{
+    background-color: blue;
+    width: 10pt;
+    height: 10pt;
+}
+
+#pc{
+    background-color: red;
+    width: 10pc;
+    height: 10pc;
+}
+
+.container{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+.inside{
+    width: 80%;
+    height: 80%;
+    background-color: blue;
+}
+
+#base{
+    height: 10px;
+    background-color: red;
+}
+
+#conteudo{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+}
