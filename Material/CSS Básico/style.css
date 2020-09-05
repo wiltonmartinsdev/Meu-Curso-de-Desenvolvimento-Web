@@ -75,3 +75,13 @@
     padding: 10px;
     margin: 15px;
 }
+
+.borda{
+
+    border: 5px dashed red;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}

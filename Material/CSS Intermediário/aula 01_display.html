@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DISPLAY </title>
+    <style type="text/css"></style>
+</head>
+<body>
+<!-- 
+DISPLAY INLINE: Quando temos um elemento desse tipo, não conseguimos modificar a largura nem a altura. Ele mantem o elemento na mesma linha não ocorrendo a quebra de linha.
+DISPLAY INLINE BLOCK: Irá manter o comportamento do display inline permitindo que seja alterada a altura e largura.
+DISPLAY BLOCK: Quando temos um elemento desse tipo, nesse caso, conseguimos modificar a largura e altura.
+DISPLAY NONE: Faz com que um elemento nunca tivesse sido colocado na tela, ou seja, quer dizer: não mostre esse elemento na tela.
+1 - Nunca devemos usar um elemento que seja do tipo Display Block, mas que esteja dentro do parágrafo
+1.1 - Não podemos usar uma tag DIV dentro de um parágrafo, nem um parágrafo dentro de uma parágrafo. Porque nesse caso, se isso ocorrer iremos ter a quebra do fluxo do parágrafo.
+2 - A tag DIV e P são do tipo display block, mas com diferenças. Por padrão o parágrafo tem margin, por isso quando quebra a linha tem um espaçamento e a tag DIV não margin por padrão.
+-->
+    <div style="background-color: blue;">
+        <div> Esta é uma DIV normal </div>
+        <div> 
+            E aqui a história <div style="background-color: red; width: 500px;">DIV de dentro </div> continua
+        </div>
+    </div>
+
+    <div>
+
+        <p style="margin: 0"> Este é uma parágrafo normal </p>
+        <p style="margin: 0"> E aqui a história continua </p>
+    </div>
+
+    <p>
+        Aqui eu tenho o início de um parágrafo <span style="background-color: green; width: 500px; display: inline-block"> um SPAN no meio </span> E o fim do parágrafo.
+    </p>
+
+    <p style="background-color: blue;">
+        Aqui eu tenho um início de um parágrafo <div style="background-color: red;"> uma div no meio </div> E o fim do parágrafo.
+    </p>
+
+    <p>
+        Aqui eu tenho o início de um parágrafo E o fim do parágrafo.
+    </p>
+</body>
+</html>
