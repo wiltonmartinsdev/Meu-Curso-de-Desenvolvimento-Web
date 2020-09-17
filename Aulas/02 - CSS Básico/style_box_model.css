@@ -14,8 +14,9 @@ body{
     background-color: #ddd;
     border: 5px solid green;
     padding: 5px;
+    /* margin: 5px*/
+    /* outline: 5px solid green;*/
 }
-
 
 .square{
     background-color: yellow;

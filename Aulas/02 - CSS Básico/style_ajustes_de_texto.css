@@ -1,0 +1,13 @@
+p{
+    color: red;
+    text-indent: 15px;
+    text-shadow: 1px 1px #bbb;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-decoration: underline;
+    /* text-align: justify;
+       text-transform: capitalize;
+       text-decoration: line-trough underline overline;
+       line-height: 10px;
+    */
+}

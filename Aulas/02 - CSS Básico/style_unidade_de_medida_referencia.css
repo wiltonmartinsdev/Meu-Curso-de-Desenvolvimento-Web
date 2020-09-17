@@ -1,0 +1,61 @@
+.container_em{
+    font-size: 20px;
+    width: 300px;
+    background-color: red;
+
+}
+
+.inside_em{
+    font-size:2em;
+    width: 1em;
+    background-color: blue;
+}
+
+html{
+    font-size: 20px;
+}
+
+.container_rem{
+    font-size: 25px;
+    
+
+}
+
+.inside_rem{
+    font-size: 2rem;
+    
+}
+
+.container_vw{
+    width: 50vw;
+    background-color: red;
+
+}
+
+.inside_vw{
+    width: 100px;
+    background-color: blue;
+
+}
+
+.container_vmin{
+    width: 50vmin;
+    background-color: red;
+}
+
+.inside_vmin{
+    width: 100px;
+    background-color: blue;
+}
+
+.container_porcento{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+.inside_porcento{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}

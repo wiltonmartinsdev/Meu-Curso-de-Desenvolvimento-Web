@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Unidade de Medida de Referência </title>
+    <link href="style_unidade_de_medida_referencia.css" rel="stylesheet">
+</head>
+<body>
+    <!-- O tamanho padrão do texto é 16px 
+    1- Como a div inside_em esta dentro da div container_em, ela vai herdar o tamanho de fonte da div que é pai dela, no caso, a div container_em.
+    1.1- Como o tamanho da fonte da div container_em é 20px, 1em vai ser equivalente a 20px, 2em equivalente a 40px e assim por diante.
+    2- A unidade de medida "em" é relativa ao tamanho da fonte, mesmo se usarmos na largura ela vai estar ligada ao tamanho da fonte do elemento pai, que nesse exemplo, é a div container_em.
+    3 - A unidade de medida "rem" faz referência ao tamanho da fonte do elemento raiz, no caso, o elemento raiz é o elemento HTML body
+    4- A unidade de media "vw" é referente a largura da janela. 1vw é equivalente a 1% da largura da janela.
+    5- A unidade de medida "vh" é referente a altura da janela.
+    6- A unidade de medida "vmin" é referente a menor dimensão.
+    7- A unidade de medida "vmax" é referente a maior dimensão.
+    8 - A unidade de medida "%" vai ser sempre referente ao tamanho do elemento pai.
+    
+    
+    
+    -->
+    Texto no Body
+    <div class="container_em">
+        Texto no Container_em
+        <div class="inside_em">
+            Texto no inside_em
+        </div>
+    </div><br>
+
+    <div class="container_rem"> 
+        Texto no Container_rem
+        <div class="inside_rem">
+            Texto no Inside_rem
+        </div>
+    </div><br>
+
+    <div class="container_vw">
+        Texto no Container_vw
+        <div class="inside_vw">
+            Texto no Inside_vw
+        </div>
+    </div><br>
+
+    <div class="container_vmin">
+        Texto no Container_vmin
+        <div class="inside_vmin">
+            Texto no Inside_vmin
+        </div>
+    </div> <br>
+
+    <div class="container_porcento">
+        <div class="inside_porcento">
+            
+        </div>
+    </div>
+</body>
+</html>

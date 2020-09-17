@@ -1,0 +1,10 @@
+#principal{
+    color: red;
+    /*background-color: #00ffff;*/
+    background-image: url(../Imagens/rodadecapoeira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /*background-position: center;*/
+    /*background: url(../Imagens/rodadecapoeira.jpg) center/cover no-repeat fixed */
+}

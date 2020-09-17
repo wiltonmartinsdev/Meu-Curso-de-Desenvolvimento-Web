@@ -1,0 +1,12 @@
+#titulo{
+    /* RGBA usado quando queremos utilizar a "transparência"*/
+    color: rgba(0, 100, 200, 0.6);
+}
+
+#principal{
+    color:rgb(255, 255, 0)
+}
+
+.texto_verde{
+    color: #70e5ae;
+}
