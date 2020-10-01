@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Alinhamento Horizontal </title>
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+
+        #quadrado {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            /*
+            margin-left: 500px;
+            margin-left:auto;
+            margin-right:auto;
+            
+            margin-left: auto;
+            
+            */
+            margin: auto;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+        }
+
+        #container {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        1- Para fazer o alinhamento horizontal de uma imagem precisamos mudar o display para block.
+        1.1 - Se por algum motivo o display da imagem precisar ser do tipo inline-block, podemos colocar a imagem dentro de uma div para poder alinhar mais a direita possível. 
+    
+    
+    -->
+    <div id="quadrado"> </div>
+
+    <img src="../Imagens/rodadecapoeira.jpg" width="300px">
+
+    <div id="container">
+        <img src="../Imagens/background.jpg" width="300px">
+    </div>
+
+</body>
+
+</html>

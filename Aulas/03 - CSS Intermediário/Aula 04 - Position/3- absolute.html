@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Position - Absolute </title>
+    <style>
+        body {
+            font-size: 1.2rem;
+        }
+
+        .static {
+            position: static;
+        }
+
+        .absolute {
+            position: absolute;
+            /*
+                left: 0;
+                
+                */
+        }
+
+        .quadrado {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+
+        .bg-red {
+            background-color: red;
+        }
+
+        .bg-blue {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+            1- Posicionamento Estático, que é o padrão, vai seguir o fluxo padrão de uma página.
+            2- A diferença do posionamento estático e relativo, está em que o relativo permite usar as outras propriedades: top, left, right e bottom.
+            3- Fixed permite também usar as outras propriedades (top, left, right e bottom) so quem em relação a janela do navegador.
+            4- Absolute permite também usar as outras propriedades (top, left, right e bottom) so quem em relação ao pai do nosso elemento, caso, não tenha pai vai ser o body.
+            4.1- O pai do elemento é obrigatório que não seja estático.
+        -->
+    <div class="static quadrado bg-blue">
+
+    </div>
+
+    <div class="absolute quadrado bg-red">
+
+    </div>
+</body>
+
+</html>
