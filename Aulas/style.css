@@ -1,0 +1,46 @@
+div{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    color: white;
+    line-height: 200px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.div_color_first{
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.div_color_second{
+    background-color: orange;
+   
+}
+
+.div_color_third{
+    background-color: green;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.div_color_fourth{
+    background-color: teal;
+    position: absolute;
+    left: 50%;
+    top: 72%;
+    transform: translate(-50%, -50%);
+}
+
+.div_color_last{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
