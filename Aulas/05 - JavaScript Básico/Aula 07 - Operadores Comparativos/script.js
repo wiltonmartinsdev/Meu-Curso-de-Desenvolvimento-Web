@@ -1,5 +1,5 @@
 // == igual a
-// === valor igual e igual (compara nõa so o valor pra ver se é igual mas o tipo também)
+// === valor igual e igual (compara não so o valor, pra ver se é igual mas o tipo também)
 // != não é igual
 // !== não igual ou não igual
 // > maior que
