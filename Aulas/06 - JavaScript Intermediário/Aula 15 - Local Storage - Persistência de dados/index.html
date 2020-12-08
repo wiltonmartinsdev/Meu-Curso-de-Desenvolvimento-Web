@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*localStorage.setItem('nome', 'Wilton') // Irá armazenar um dado na "memória" do navegador
+
+        let n = localStorage.getItem('nome') // Irá pega na "memória" do navegador os dados armazenados
+        console.log(n)
+        //localStorage.removeItem() // Irá na "memória" do navegador e apaga os dados armazenados
+
+        LocalStorage.clear(): Apaga tudo que estiver na memória
+        */
+
+        onload = function() {
+            let nome = localStorage.getItem('nome')
+            let h1 = document.getElementById('nome')
+            h1.innerHTML = nome
+        }
+        function Atualizar(element){
+            let valor = element.value
+            console.log(valor)
+
+            let h1 = document.getElementById('nome')
+            h1.innerHTML = valor
+        }
+
+    </script>
+</head>
+
+<body>
+    <h1 id="nome"> </h1>
+    <input type="text" oninput="Atualizar(this)">
+</body>
+
+</html>
