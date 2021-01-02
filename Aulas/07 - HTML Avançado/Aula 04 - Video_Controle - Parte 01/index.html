@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            position: relative;
+            width: 640px;
+            height: 360px;
+        }
+
+        .video {
+            width: 100%;
+        }
+
+        .controle {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .btn {
+            position: relative;
+            width: 60px;
+            padding: 10px;
+            top: 100%;
+            transform: translateY(-100px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <video id="video1" src="sol_e_praia.mp4" class="video" loop></video>
+
+        <div class="controle">
+            <img src="./imagens/return.png" class="btn" onclick="retroceder()" onmouseout="showBtn()" onmouseover="hideBtn()"  alt="">
+            <img src="./imagens/advance.png" class="btn" onclick="avancar()" alt="">
+            <img src="./imagens/volume-down.png" class="btn" onclick="diminuir_vol()" alt="">
+            <img src="./imagens/volume-up.png" class="btn" onclick="aumentar_vol()" alt="">
+            <img src="./imagens/play.png" class="btn" onclick="play()" alt="">
+            <img src="./imagens/stop.png" class="btn" onclick="stop()" alt="">
+            <img src="./imagens/pause.png" class="btn" onclick="pause()" alt="">
+        </div>
+    </div>
+
+    <footer>
+        <div>Ícones feitos por <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a> from <a
+                href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
+        Video by <a
+            href="https://pixabay.com/pt/users/klaushausmann-1332067/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=8704">Klaus
+            Hausmann</a> from <a
+            href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=8704">Pixabay</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

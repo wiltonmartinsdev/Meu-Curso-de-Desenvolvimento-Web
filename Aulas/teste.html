@@ -4,26 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>
-        function Sortear() {
-            let pessoas = ['Wilton', 'Martins', 'César', 'Ana', 'Zilda']
-            let np = pessoas.length
-            let ns = Math.floor(Math.random() * np)
-            let h1 = document.getElementById('title')
-            h1.innerHTML = pessoas[ns]
-            console.log(ns)
-        }
-
-
-
-    </script>
-
-
-
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="title"> </h1>
-    <button onclick="Sortear()"> Sortear </button>
+    <div class="v-container" data-src="video.mp4"> </div>
+    <div class="v-container" data-src="sol_e_praia.mp4"> </div>
+    
+    <script src="script_test.js"></script>
 </body>
 </html>
