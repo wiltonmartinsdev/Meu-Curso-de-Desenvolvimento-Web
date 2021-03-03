@@ -1,0 +1,8 @@
+/* 
+1- Se usarmos o simbolo de "[]" significa que iremos utilizar o atributo como seletor e todo elemento que tiver um atributo "width" irá ser selecionado.
+2- [width = "500"]: Quer dizer que iremos selecionar somente o atributo que tiver esse width.
+ */
+
+[width='500'] {
+    background-color: green;
+}

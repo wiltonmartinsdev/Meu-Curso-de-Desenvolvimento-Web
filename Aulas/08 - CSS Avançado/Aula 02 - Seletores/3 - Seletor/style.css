@@ -1,0 +1,7 @@
+/* Quando separamos os elementos por um espaço, queremos dizer que, iremos pegar todos os critérios que atendem ao 2º elemento, mas so se o mesmo estiver contido no 1º elemento. 
+Não precisa ser necessariamente uma tag, pode ser um id.
+ */
+
+div p {
+    background-color: green;
+}

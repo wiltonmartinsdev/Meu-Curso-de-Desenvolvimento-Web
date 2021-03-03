@@ -1,0 +1,5 @@
+/* Se colocarmos uma "," depois do elemento, iremos usar as mesmas definições pro outro elemento depois da "," */
+
+p, header, h2 {
+    background-color: green;
+}

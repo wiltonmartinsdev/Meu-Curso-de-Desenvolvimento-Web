@@ -1,0 +1,5 @@
+/* Se usarmos o sinal de "+" significa que iremos pegar o elemento "p" que esta logo após ao elemento head. */
+
+header+p {
+    background-color: green;
+}

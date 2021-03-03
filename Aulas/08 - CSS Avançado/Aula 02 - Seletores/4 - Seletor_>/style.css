@@ -1,0 +1,5 @@
+/* Se usarmos um sinal de ">" significa que iremos pegar todos os elementos "p", cujo,o pai é head. */
+
+#head>p {
+    background-color: green;
+}

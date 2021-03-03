@@ -1,0 +1,31 @@
+/* 
+1- Utilizando o grow ou shrink iremos utilizar o flex-box nos elementos filhos e não no pai.
+2- Quando utilizamos o flex-shrink, irá receber uma propriedade 0 ou 1, onde 0 o elemento não poderá aumentar e 1 o elemento poderá aumentar.
+3- O padrão ao utilizar o grow é o 0, com isso o elemento não poderá aumentar quando dimensionamos a tela.
+4- Se utilizarmos o valor 2 no flex-grow, isso quer dizer que este elemento terá o dobro do tamanho dos outros elementos, se colocarmos 3 terá o triplo e assm sucessivamente.
+*/
+
+.container {
+    display: flex;
+    background-color: darkgrey;
+    height: 400px;
+    color: white;
+}
+
+.r1 {
+    background-color: red;
+}
+
+.r2 {
+    background-color: blue;
+}
+
+.r3 {
+    flex-grow: 1;
+    background-color: green;
+}
+
+.rect {
+    width: 150px;
+    height: 100px;
+}

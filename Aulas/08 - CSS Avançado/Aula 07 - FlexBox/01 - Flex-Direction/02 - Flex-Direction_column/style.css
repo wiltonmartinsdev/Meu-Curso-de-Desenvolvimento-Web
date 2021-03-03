@@ -1,0 +1,39 @@
+/*
+1- FlexBox seria uma caixa flexível, onde iremos conseguir fazer com que os nossos elementos (filhos) sejam flexíveis o bastante para se adaptar ao elemento pai deles,
+onde iremos na prática criar um desing flexível pra qualquer tamanho de tela.
+
+2- Quando aplicamos um display flex que tenha filhos, todos os elementos filhos irão sofrer alguma mudança por causa disso.
+
+3- Quando tivermos utilizando o flexbox, iremos conseguir atraves do pai, definir mais ou menos comportamento/posicionamento dos filhos.
+
+4- Por padrão o flexbox, vem com o flex-direction definido como row, então, isso quer dizer que o nosso container (nesse exemplo) ele passa a ser uma "grande linha", 
+com isso todo elemento filho vai tentar preencher toda essa linha.
+
+5- Quando mudamos para flex-direction: column, isso quer dizer que o nosso container (nesse exemplo) ele passa a ser uma "grande coluna", 
+com isso todo elemento filho vai tentar preencher toda essa coluna.
+*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: darkgrey;
+    height: 400px;
+    color: white;
+}
+
+.r1 {
+    background-color: red;
+}
+
+.r2 {
+    background-color: blue;
+}
+
+.r3 {
+    background-color: green;
+}
+
+.rect {
+    width: 100px;
+    height: 100px;
+}

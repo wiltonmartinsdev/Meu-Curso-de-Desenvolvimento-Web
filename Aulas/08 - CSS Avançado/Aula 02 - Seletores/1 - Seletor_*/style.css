@@ -1,0 +1,6 @@
+/* Seletor com "*" vai selecionar todos os elementos da nossa página*/
+
+* {
+    background-color: green;
+    margin: 0;
+}

@@ -1,0 +1,7 @@
+/* Transformações são coisas que podemos modificar no nosso elemento na tela, podendo ser imagem ou qualquer tipo de elemento. */
+
+img {
+    width: 420px;
+    /* Irá permitir que modifiquemos a posição na "diagonal", tanto na horizontal quanto na vertical, podendo também usar valores negativos. */
+    transform: skew(45Deg);
+}

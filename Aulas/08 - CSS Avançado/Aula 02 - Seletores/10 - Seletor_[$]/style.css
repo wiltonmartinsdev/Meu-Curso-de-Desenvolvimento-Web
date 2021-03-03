@@ -1,0 +1,5 @@
+/* Se usarmos o simbolo de "[]" utilizando o símbolo de "$", neste caso iremos pegar todos os titulos, que termine em "1"*/
+
+[title$='1'] {
+    background-color: green;
+}

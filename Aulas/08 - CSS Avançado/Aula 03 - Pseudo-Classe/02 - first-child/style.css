@@ -1,0 +1,13 @@
+/* 
+1- Pseudo-Classes podemos considerar como estilo de seletores, com isso conseguimos selecionar um elemento baseado em alguma característica do próprio elemento. 
+2- Pseudo-Classes terá somente uma vez o sinal de ":", enquanto, o Pseudo-Elemento terá duas vezes o sinal ":".
+
+*/
+
+
+/* Somente o primeiro elemento filho de ul, ficará com a cor azul. A ordem do primeiro filho de ul é importante, se tiver outro elemento pro primeiro que não seja li, nesse caso não ficará na cor azul*/
+
+li:first-child {
+    color: blue;
+}
+

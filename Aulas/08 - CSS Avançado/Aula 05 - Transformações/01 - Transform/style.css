@@ -1,0 +1,8 @@
+/* Transformações são coisas que podemos modificar no nosso elemento na tela, podendo ser imagem ou qualquer tipo de elemento. */
+
+img {
+    width: 420px;
+    /* Irá inclinar a imagem em 45°, podendo usar valores negativos, por exemplo, -45°. */
+    transform: rotate(45Deg);
+}
+

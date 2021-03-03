@@ -1,0 +1,33 @@
+/* 
+1- Order so funciona se estivermos usando o display: flex no nosso container.
+2- Por padrão todos os elementos filhos dentro do flex-box, tem por padrão a ordem 0.
+3- 
+*/
+
+.container {
+    display: flex;
+    background-color: darkgrey;
+    height: 400px;
+    color: white;
+}
+
+.r1 {
+    order: 3;
+    background-color: red;
+}
+
+.r2 {
+    order: 1;
+    background-color: blue;
+}
+
+.r3 {
+    order: 2;
+    flex-shrink: 0;
+    background-color: green;
+}
+
+.rect {
+    width: 150px;
+    height: 100px;
+}

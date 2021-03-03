@@ -1,0 +1,50 @@
+/* first-line: Modifica somente a primeira linha*/
+p::first-line {
+    color: red;
+}
+
+/* first-letter: Modifica somente a primeira letra*/
+p::first-letter {
+    color: blue;
+    font-size: 5rem;
+}
+
+li {
+    list-style: none;
+}
+
+/* before: Permite colocar um conteúdo antes do elemento, podendo utilizar uma imagem também */
+li::before {
+    /*
+    margin-left: 200px;
+    list-style-image: url(google.png);
+    O content é um texto normal.
+    */
+    content: ''; 
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(google.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* After: Permite colocar um conteúdo depois do elemento, podendo utilizar uma imagem também */
+li::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(google.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Selection: Define um estilo pro texto que esta selecionado na página */
+p::selection {
+    background-color: yellow;
+    color: orangered;
+}
+

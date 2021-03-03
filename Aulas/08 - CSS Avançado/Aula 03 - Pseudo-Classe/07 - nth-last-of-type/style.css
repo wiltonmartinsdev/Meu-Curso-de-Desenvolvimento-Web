@@ -1,0 +1,13 @@
+/* 
+1- Pseudo-Classes podemos considerar como estilo de seletores, com isso conseguimos selecionar um elemento baseado em alguma característica do próprio elemento. 
+2- Pseudo-Classes terá somente uma vez o sinal de ":", enquanto, o Pseudo-Elemento terá duas vezes o sinal ":".
+
+*/
+
+
+/* Irá selecionar o segundo elemento do seu tipo, do último para o primeiro, dentro do elemento ul em questão*/
+
+li:nth-last-of-type(2) {
+    color: blue;
+}
+

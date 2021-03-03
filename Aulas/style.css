@@ -1,0 +1,9 @@
+#header {
+    background-color: darksalmon;
+    height: 150px;
+}
+
+#div_link {
+    position: sticky;
+    top: 0;
+}

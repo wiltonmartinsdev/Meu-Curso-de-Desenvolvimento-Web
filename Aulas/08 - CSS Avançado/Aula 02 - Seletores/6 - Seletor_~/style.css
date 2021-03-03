@@ -1,0 +1,5 @@
+/* Se usarmos o sinal de "~" significa que iremos pegar todos os parágrafos sucedam o header. */
+
+header~p {
+    background-color: green;
+}

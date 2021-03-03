@@ -1,0 +1,42 @@
+/* 
+1- Utilizando o justify-content irá permitir que tenhamos algumas opções que irão modificar um pouco mais os elementos.
+2- Utilizando o flex-end irá mover os elementos mas não alterando a ordem deles, diferente do row-reverse que altera a ordem dos elemntos.
+3- Podemos mesclar os dois modos. 
+4- O padrão do justify-content é flex-start.
+5- Utilizando o center irá centralizar os elementos na tela.
+6- Utilizando o space-betweewn irá tentar manter um espaço entre os elementos.
+7- Utilizando o space-around irá tentar manter um espaço igual em volta de cada elementos, tanto nas laterais quanto entre os elementos.
+8- Como estamos utilizando o flex-content: row o justify irá mover os elementos na horizontal, se fosse flex-content:column, iria mover na vertical.
+9- Utilizando o space-evenly irá manter um espaço igual entre os elementos.
+10- Utiliznado o Align-items:center iremos centralizar todos os elementos do centro da tela.
+11- Iremos mover os elementos para baixo.
+12- O padrão do aling-items é stretch, ou seja, irá preencher tudo o espaço quando esitver no stretch.
+13- O aling-items irá alinhar os itens em relação a cada uma das linhas. 
+*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: darkgrey;
+    height: 400px;
+    color: white;
+}
+
+.r1 {
+    background-color: red;
+}
+
+.r2 {
+    background-color: blue;
+}
+
+.r3 {
+    background-color: green;
+}
+
+.rect {
+    width: 100px;
+    /* height: 100px; */
+}

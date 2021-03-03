@@ -1,0 +1,21 @@
+/* 
+1- Pseudo-Classes podemos considerar como estilo de seletores, com isso conseguimos selecionar um elemento baseado em alguma característica do próprio elemento. 
+2- Pseudo-Classes terá somente uma vez o sinal de ":", enquanto, o Pseudo-Elemento terá duas vezes o sinal ":".
+*/
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+/* Irá selecionar todos os itens de 3 em 3 a partir do primeiro, dentro do elemento ul em questão*/
+
+li:nth-of-type(3n-2) {
+    background-color: gray;
+}

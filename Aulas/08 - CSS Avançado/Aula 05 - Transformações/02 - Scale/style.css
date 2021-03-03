@@ -1,0 +1,8 @@
+/* Transformações são coisas que podemos modificar no nosso elemento na tela, podendo ser imagem ou qualquer tipo de elemento. */
+
+img {
+    width: 420px;
+    /* Irá permitir que modifiquemos a escala, tanto na horizontal quanto na vertical. */
+    transform: scale(2);
+}
+

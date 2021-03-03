@@ -1,0 +1,5 @@
+/* Se usarmos o simbolo de "[]" utilizando o símbolo de "*", neste caso iremos pegar todos os titulos, que estiverem em algum lugar o número "1"*/
+
+[title*='tu'] {
+    background-color: green;
+}

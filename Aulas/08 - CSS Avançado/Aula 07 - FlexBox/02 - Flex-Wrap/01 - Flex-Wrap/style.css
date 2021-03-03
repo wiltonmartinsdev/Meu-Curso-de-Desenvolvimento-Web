@@ -1,0 +1,33 @@
+/*
+1- Quando utilizamos o flex-wrap, ele irá tentar proteger o tamanho (altura e largura)do nosso elemento, no caso, irá manter o width e height em 150px.
+2- Como o flex-wrap irá manter o tamanho do elemento, em alguns casos pode ultrapassar o tamanho da div container, nesse caso podemos modificar o tamanho do elemento para couber na div container.
+3- Com o wrap-reverse iremos inverter os elementos.
+4- Podemos associar o wrap-reverse com row-reverse.
+5- A opção padrão do wrap é nowrap.
+*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: darkgrey;
+    height: 400px;
+    color: white;
+}
+
+.r1 {
+    background-color: red;
+}
+
+.r2 {
+    background-color: blue;
+}
+
+.r3 {
+    background-color: green;
+}
+
+.rect {
+    width: 150px;
+    height: 100px;
+}

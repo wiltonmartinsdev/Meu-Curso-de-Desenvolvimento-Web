@@ -1,0 +1,36 @@
+/* 
+1- Calc é uma função que irá permitir que calculemos o valor do width: 50% mesmo tendo uma porcentagem. 
+2- Quando utilizarmos o calc e o display: inline-block, iremos ter um "problema" do CSS que ele inclue um espaçamento de 4px, com isso em vez de usar 300px devemos colocar 304px,
+pra corrigir esse problema.
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+.container {
+    width: 100%;
+    background-color: blue;
+}
+
+.primeira {
+    display: inline-block;
+    margin-right: -4px;
+    margin-bottom: -4px;
+    /* Calc(100% - 300px) com isso iremos pegar 100% da tela, menos o tamanho da div segunda. */
+    width: calc(100% - 300px);
+    height: 300px;
+    background-color: yellow;
+}
+
+.segunda {
+    display: inline-block;
+    margin-right: -4px;
+    margin-bottom: -4px;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}

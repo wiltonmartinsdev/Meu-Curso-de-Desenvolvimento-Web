@@ -1,0 +1,5 @@
+/* Se usarmos o simbolo de "[]" utilizando o acento "~",Iremos pegar todo titulo, que tenha a palavra titulo. */
+
+[title~='titulo'] {
+    background-color: green;
+}

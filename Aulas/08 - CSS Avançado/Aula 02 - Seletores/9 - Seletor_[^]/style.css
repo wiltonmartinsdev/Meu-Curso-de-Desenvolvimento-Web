@@ -1,0 +1,5 @@
+/* Se usarmos o simbolo de "[]" utilizando o acento "^", neste caso iremos pegar todos os titulos, que começarem com a letra "t" */
+
+[title^='t'] {
+    background-color: green;
+}

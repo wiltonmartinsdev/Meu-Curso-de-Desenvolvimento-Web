@@ -1,0 +1,31 @@
+/* 
+1- O uso da varável é útil quando precisamos, por exemplo, mudar a cor de vários elementos que precisam ter a mesmo cor ou outra característica.
+2- O seletor root é na realidade a tag html.
+*/
+
+:root {
+    --var_color: red;
+    --square_size: 300px;
+}
+
+.p2 {
+    color: var(--var_color);
+    font-size: 25px;
+}
+
+.p3 {
+    color: var(--var_color);
+    font-size: 14px;
+}
+
+.sqr1 {
+    width: var(--square_size);
+    height: var(--square_size);
+    background-color: black;
+}
+
+.sqr2 {
+    width: var(--square_size);
+    height: var(--square_size);
+    background-color: green;
+}
